@@ -1,0 +1,305 @@
+@import "app.scss";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+.container-fluid {
+  padding-right: 5.729vw !important;
+  padding-left: 5.729vw !important;
+
+}
+
+body {
+  background-color: $white;
+}
+
+.primary-btn {
+  background-color: $white;
+  color: $brown;
+  border: 1px solid $orange;
+  border-radius: 10px;
+  outline: none;
+  padding: 0.9rem 4rem;
+  font-family: $BT-p-medium;
+  text-transform: capitalize;
+  margin: 0.5rem 0;
+  @include flexCenter;
+}
+
+.primary-btn:hover {
+  background-color: $orange;
+  color: $white;
+  border: 1px solid $orange;
+  transition: 0.5s;
+  .svg-arrow{
+    svg{
+      path{
+
+        fill:$white !important;
+      }
+    }
+  }
+}
+
+.primary-btn:disabled {
+  opacity: 0.3;
+}
+
+.img-container {
+  @include bgCenter;
+  min-height: 65vh;
+  height: 100%
+}
+
+.title-border {
+  width: 6rem;
+  background-color: $grey;
+  height: 2px;
+  display: block;
+}
+
+
+//section for header introduction
+.header-container {
+  @include bgCenter;
+  @include flexCenter;
+  background-attachment: fixed;
+  height: 100vh;
+  position: relative;
+
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+  background-attachment: fixed;
+
+  }
+
+  h3 {
+    color: $orange;
+    font-family: $BT-p-medium;
+    z-index: 1;
+
+  }
+
+  .layout {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    // background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3));
+
+  }
+}
+
+.text-captital {
+  text-transform: capitalize;
+}
+
+.errors {
+  color: $red;
+  font-family: $BT-l-bold;
+  text-transform: capitalize;
+  font-size: 1rem !important;
+}
+
+input.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched {
+  border: solid 1px $red;
+}
+
+
+//colors
+.white {
+  color: $white;
+}
+
+.black {
+  color: $black;
+}
+
+.grey {
+  color: $grey;
+}
+
+.darkGrey {
+  color: $darkGrey;
+}
+
+.orange {
+  color: $orange;
+}
+
+.blue {
+  color: $blue;
+}
+
+.purple {
+  color: $purple;
+}
+
+.regularGrey {
+  color: $regularGrey;
+}
+
+.brown {
+  color: $brown;
+}
+
+.violet {
+  color: $violet;
+}
+
+.r-black {
+  color: $r-black;
+}
+
+.g-black {
+  color: $g-black;
+}
+
+//fonts
+//poppins
+.p-medium {
+  font-family: $BT-p-medium;
+}
+
+.p-regular {
+  font-family: $BT-p-regular;
+}
+
+.p-semiBold {
+  font-family: $BT-p-semiBold;
+}
+
+//montserrat
+.m-semiBold {
+  font-family: $BT-m-SemiBold;
+}
+
+//lato
+.l-semiBold {
+  font-family: $BT-l-SemiBold;
+}
+
+.l-bold {
+  font-family: $BT-l-bold;
+}
+
+.l-medium {
+  font-family: $BT-l-medium;
+}
+
+.l-regular {
+  font-family: $BT-l-regular;
+}
+
+//endfonts
+
+.text-spacing {
+  padding: 0.5rem 0 !important;
+}
+
+.font-style-stroke {
+  color: transparent;
+  -webkit-text-stroke: 2px $orange;
+}
+
+
+//section-margin
+.s-mt-1 {
+  margin-top: 1rem !important;
+}
+
+.s-mt-2 {
+  margin-top: 2rem !important;
+}
+
+.s-mt-3 {
+  margin-top: 3rem !important;
+}
+
+.s-mt-4 {
+  margin-top: 4rem !important;
+}
+
+.s-mb-1 {
+  margin-bottom: 1rem !important;
+}
+
+.s-mb-2 {
+  margin-bottom: 2rem !important;
+}
+
+.s-mb-3 {
+  margin-bottom: 3rem !important;
+}
+
+.s-mb-4 {
+  margin-bottom: 4rem !important;
+}
+
+.s-m-1 {
+  margin: 1rem 0 !important;
+}
+
+.s-m-2 {
+  margin: 2rem 0 !important;
+}
+
+.s-m-3 {
+  margin: 3rem 0 !important;
+}
+
+.s-m-4 {
+  margin: 4rem 0 !important;
+}
+
+// scroling bar
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $orange;
+}
+
+::-webkit-scrollbar-track {
+  background: $white;
+}
+
+@media screen and (max-width:767px) {
+  .primary-btn {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:1024px) {
+
+  //order image
+  .orderTwo {
+    order: 2;
+  }
+
+  .orderOne {
+    order: 1;
+
+  }
+
+  .orderThree {
+    order: 3;
+  }
+}

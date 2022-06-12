@@ -1,0 +1,23 @@
+<section class="home">
+  <swiper class="mySwiper" [autoplay]="{
+    delay: 3000,
+    disableOnInteraction: false
+    }">
+    <ng-template class="white" swiperSlide *ngFor="let slider of homeContent.sliders">
+      <div class="row cards">
+        <div class="col-xl-12 card-bg">
+          <div class="d-flex align-items-start">
+            <img [src]="" alt="" />
+            <div class="text-header">
+              <h6 class="black m-bold">}</h6>
+            </div>
+          </div>
+          <div class="text">
+            <p class="black m-meduim s-mt-1"></p>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+  </swiper>
+
+</section>

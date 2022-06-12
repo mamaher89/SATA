@@ -1,0 +1,125 @@
+  /* Poppins  Font Family */
+
+  @font-face {
+    font-family: "poppinsMedium";
+    src: url("../../fonts/poppins/Poppins-Medium.eot"),
+      url("../../fonts/poppins/Poppins-Medium.woff2") format("woff2"),
+      url("../../fonts/poppins/Poppins-Medium.woff") format("woff"),
+      url("../../fonts/poppins/Poppins-Medium.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "poppinsSemiBold";
+    src: url("../../fonts/poppins/Poppins-SemiBold.eot"),
+      url("../../fonts/poppins/Poppins-SemiBold.woff2") format("woff2"),
+      url("../../fonts/poppins/Poppins-SemiBold.woff") format("woff"),
+      url("../../fonts/poppins/Poppins-SemiBold.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "poppinsSemiBold";
+    src: url("../../fonts/poppins/Poppins-SemiBold.eot"),
+      url("../../fonts/poppins/Poppins-SemiBold.woff2") format("woff2"),
+      url("../../fonts/poppins/Poppins-SemiBold.woff") format("woff"),
+      url("../../fonts/poppins/Poppins-SemiBold.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "poppinsRegular";
+    src: url("../../fonts/poppins/Poppins-Regular.eot"),
+      url("../../fonts/poppins/Poppins-Regular.woff2") format("woff2"),
+      url("../../fonts/poppins/Poppins-Regular.woff") format("woff"),
+      url("../../fonts/poppins/Poppins-Regular.ttf") format("truetype");
+  }
+
+  /* Montserrat  Font Family */
+
+  @font-face {
+    font-family: " montserratSemiBold ";
+    src: url("../../fonts/montesrrat/Montserrat-SemiBold.eot"),
+      url("../../fonts/montesrrat/Montserrat-SemiBold.woff2") format("woff2"),
+      url("../../fonts/montesrrat/Montserrat-SemiBold.woff") format("woff"),
+      url("../../fonts/montesrrat/Montserrat-SemiBold.ttf") format("truetype");
+  }
+
+
+  /* Lato  Font Family */
+
+  @font-face {
+    font-family: "latoMedium";
+    src: url("../../fonts/lato/Lato-Medium.eot"),
+      url("../../fonts/lato/Lato-Medium.woff2") format("woff2"),
+      url("../../fonts/lato/Lato-Medium.woff") format("woff"),
+      url("../../fonts/lato/Lato-Medium.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "latoSemiBold";
+    src: url("../../fonts/lato/Lato-Semibold.eot"),
+      url("../../fonts/lato/Lato-Semibold.woff2") format("woff2"),
+      url("../../fonts/lato/Lato-Semibold.woff") format("woff"),
+      url("../../fonts/lato/Lato-Semibold.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "latoBold";
+    src: url("../../fonts/lato/Lato-Bold.eot"),
+      url("../../fonts/lato/Lato-Bold.woff2") format("woff2"),
+      url("../../fonts/lato/Lato-Bold.woff") format("woff"),
+      url("../../fonts/lato/Lato-Bold.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "latoRegular";
+    src: url("../../fonts/lato/Lato-Regular.eot"),
+      url("../../fonts/lato/Lato-Regular.woff2") format("woff2"),
+      url("../../fonts/lato/Lato-Regular.woff") format("woff"),
+      url("../../fonts/lato/Lato-Regular.ttf") format("truetype");
+  }
+
+
+  /* cairo  Font Family */
+
+  @font-face {
+    font-family: "cairoBold";
+    src: url("../../fonts/cairo/Cairo-Bold.eot"),
+      url("../../fonts/cairo/Cairo-Bold.woff2") format("woff2"),
+      url("../../fonts/cairo/Cairo-Bold.woff") format("woff"),
+      url("../../fonts/cairo/Cairo-Bold.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "cairoRegular";
+    src: url("../../fonts/cairo/Cairo-Regular.eot"),
+      url("../../fonts/cairo/Cairo-Regular.woff2") format("woff2"),
+      url("../../fonts/cairo/Cairo-Regular.woff") format("woff"),
+      url("../../fonts/cairo/Cairo-Regular.ttf") format("truetype");
+  }
+
+  /* Poppins  Font Family */
+  $BT-p-medium: "poppinsMedium",
+  sans-serif;
+  $BT-p-semiBold: "poppinsSemiBold",
+  sans-serif;
+  $BT-p-regular: "poppinsRegular",
+  sans-serif;
+
+
+  /* Montserrat  Font Family */
+  $BT-m-SemiBold: "montserratSemiBold",
+  sans-serif;
+
+  /* Lato  Font Family */
+  $BT-l-SemiBold: "latoSemiBold",
+  sans-serif;
+  $BT-l-medium: "latoMedium",
+  sans-serif;
+  $BT-l-bold: "latoBold",
+  sans-serif;
+  $BT-l-regular: "latoRegular",
+  sans-serif;
+  /* Cairo  Font Family */
+  $BT-c-bold: "cairoBold",
+  sans-serif;
+  $BT-c-regular: "cairoRegular",
+  sans-serif;
